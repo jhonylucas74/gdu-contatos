@@ -1,0 +1,107 @@
+body {
+  background-color: #f6f6f6;
+}
+
+.banner{
+  width: 1500px;
+  height: 292px;
+  background-image: url(../img/banner.jpg);
+  background-size: cover; /*Ajusta a imagem ao tamanho total da div*/
+  margin-left: 50px auto;
+  margin-top: 0;
+}
+
+.logotipo {
+  /*Deixa o logotipo centralizado */
+  display: block;
+  margin: 0 auto;
+}
+
+.rotulo {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 28px;
+  color: #FFFFFF;
+  margin-left: 620px;
+  margin-top: 0 ;
+}
+
+#form-adiciona{
+  width: 450px;
+  height: 170px;
+  background-color: #ffffff;
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+#label-nome{
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #e1e1e1;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#input-nome {
+  width: 400px;
+  height: 30px;
+  margin-left: 20px;
+  margin-top: 5px;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  background-color: #fafafa;
+  color:#a9b1b0;
+  font-size: 14px;
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+#label-telefone{
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #e1e1e1;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+#input-telefone{
+  width: 200px;
+  height: 30px;
+  margin-left: 20px;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  background-color: #fafafa;
+  margin-top: 5px;
+  color:#a9b1b0;
+  font-size:14px;
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+#botao-salvar{
+  width:170px;
+  height:30px;
+  background-color: #a9b1b0;
+  border-radius: 5px;
+  margin-top: 2px;
+  margin-left: 20px;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+#div-nome{
+  width: 430px;
+  height: 60px;
+  background-color: #ffffff;
+}
+
+#div-telefone{
+  margin-top: 5px;
+  width: 430px;
+  height: 60px;
+  background-color: #ffffff;
+}
