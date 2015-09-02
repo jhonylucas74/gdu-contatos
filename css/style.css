@@ -1,5 +1,10 @@
 body {
   background-color: #f6f6f6;
+  margin: 0;
+}
+
+html{
+  margin: 0;
 }
 
 .banner{
