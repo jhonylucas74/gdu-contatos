@@ -8,12 +8,10 @@ html{
 }
 
 .banner{
-  width: 1500px;
+  width: 100%;
   height: 292px;
   background-image: url(../img/banner.jpg);
   background-size: cover; /*Ajusta a imagem ao tamanho total da div*/
-  margin-left: 50px auto;
-  margin-top: 0;
 }
 
 .logotipo {
@@ -26,8 +24,8 @@ html{
   font-family: 'Julius Sans One', sans-serif;
   font-size: 28px;
   color: #FFFFFF;
-  margin-left: 620px;
-  margin-top: 0 ;
+  margin: 0;
+  text-align: center;
 }
 
 #form-adiciona{
@@ -95,7 +93,8 @@ html{
   margin-left: 20px;
   border: none;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 14px;
+  cursor:pointer;
 }
 
 #div-nome{
