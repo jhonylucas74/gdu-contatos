@@ -6,20 +6,20 @@ body {
 html{
   margin: 0;
 }
-
+/*Configurações do Banner*/
 .banner{
   width: 100%;
   height: 292px;
   background-image: url(../img/banner.jpg);
   background-size: cover; /*Ajusta a imagem ao tamanho total da div*/
 }
-
+/*Configurações do Logotipo*/
 .logotipo {
   /*Deixa o logotipo centralizado */
   display: block;
   margin: 0 auto;
 }
-
+/*Configurações do Rotulo do Banner*/
 .rotulo {
   font-family: 'Julius Sans One', sans-serif;
   font-size: 28px;
@@ -27,7 +27,7 @@ html{
   margin: 0;
   text-align: center;
 }
-
+/*Configurações do box, do formulario adiciona*/
 #form-adiciona{
   width: 450px;
   height: 170px;
@@ -39,7 +39,7 @@ html{
   border-radius: 5px;
   padding: 15px;
 }
-
+/*Configurações do rotulo nome - formulario Adiciona*/
 #label-nome{
   font-family: sans-serif;
   font-size: 18px;
@@ -47,7 +47,7 @@ html{
   margin-left: 20px;
   margin-top: 20px;
 }
-
+/*Configurações do input nome*/
 #input-nome {
   width: 400px;
   height: 30px;
@@ -61,7 +61,7 @@ html{
   font-family: sans-serif;
   padding: 10px;
 }
-
+/*Configurações do rotulo telefone - formulario Adiciona*/
 #label-telefone{
   font-family: sans-serif;
   font-size: 18px;
@@ -69,7 +69,7 @@ html{
   margin-left: 20px;
   margin-top: 5px;
 }
-
+/*Configurações do input telefone*/
 #input-telefone{
   width: 200px;
   height: 30px;
@@ -83,7 +83,7 @@ html{
   font-family: sans-serif;
   padding: 10px;
 }
-
+/*Configurações do Botão Salvar*/
 #botao-salvar{
   width:170px;
   height:30px;
@@ -96,16 +96,127 @@ html{
   font-size: 14px;
   cursor:pointer;
 }
-
+/*Configurações da div nome*/
 #div-nome{
   width: 430px;
   height: 60px;
   background-color: #ffffff;
 }
-
+/*Configurações da div telefone*/
 #div-telefone{
   margin-top: 5px;
   width: 430px;
   height: 60px;
   background-color: #ffffff;
+}
+/*Configurações do da div da busca de contatos*/
+#buscar-contatos {
+  width: 450px;
+  height: 45px;
+  background-color: #f6f6f6;
+  display: block;
+  margin: 0 auto;
+  margin-top: 2%;
+}
+/*Configurações do imput de pesqusa da div buscar-contatos*/
+#input-pesquisar {
+  width: 260px;
+  height: 32px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  margin: 5px;
+}
+/*Modificação das configurações do placeholder do input-pesquisar*/
+#input-pesquisar,
+placeholder {
+  padding-left: 10px;
+  font-size: 18px;
+  font-family:sans-serif;
+  color:#a9b1b0;
+}
+/*Configurações do botão novo contato*/
+#botao-nc {
+  width: 170px;
+  height: 32px;
+  margin-left: -4px;
+  border: none;
+  border-radius: 5px;
+  background-color: #a9b1b0;
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #ffffff;
+  cursor:pointer;
+}
+/*Configuração do Box principal*/
+#box-contatos {
+  width: 432px;
+  height: 520px;
+  background-color: #ffffff;
+  display: block;
+  margin: 0 auto;
+  margin-top: 0.2%;
+  border: 1px solid #e8e8e8;
+  margin-bottom: 440;
+}
+/*Box secundaria para padronizar os contatos*/
+.contatos {
+  width: 400px;
+  height: 55px;
+  background-color: #ffffff;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+/*Box pra informações da pessoa, nome e telefone*/
+.contato {
+  width:130px;
+  height: 45px;
+  background-color: #ffffff;
+  margin-left: 2%;
+  margin-top: 5px;
+}
+/*Configurações da label-nome da div contato*/
+.label-nome {
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #a6a6a6;
+}
+/*Configurações da label-telefone da div contato*/
+.label-telefone {
+  font-size: 14px;
+  font-family: sans-serif;
+  color: #d4d4d4;
+}
+/*Configurações de uma div para os botões*/
+.botoes {
+  width: 160px;
+  height: 40px;
+  margin-top: -40px;
+  margin-left: 60%;
+  background-color: #ffffff;
+}
+/*Configurações do botão editar da div botoes*/
+.botao-editar {
+  width: 75px;
+  height: 30px;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+  background-color: #E7E62F;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+}
+/*Configurações do botão da div botoes*/
+.botao-excluir{
+  width: 75px;
+  height: 30px;
+  border:none;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #E4625B;
+  margin-left: -5px;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  cursor:pointer;
 }
