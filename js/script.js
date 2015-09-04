@@ -19,7 +19,27 @@ function guardaDados (){
       alert ("Por favor preencha os dados para salvar ");
     }
   }
+  /*Função para Validar o formulario*/
+  function validarForm(){
+   var f = document.cadastro;
+    if (f.nome.value == ""){
+      alert("O campo deve ser preenchido!");
+      f.nome.style.backgroundColor="#a9b1b0";
+      f.nome.style.color="#ffffff";
+      f.nome.focus();
+      return false;
+    }
+    if (f.telefone.value == ""){
+      alert("O campo deve ser preenchido!");
+      f.telefone.style.backgroundColor="#a9b1b0";
+      f.telefone.style.color="#ffffff";
+      f.telefone.focus();
+      return false;
+    }
+    document.cadastro.submit();
+  }
   /*Execução dos metodos*/
+  validarForm();
   obterValor();
   guardaValor();
 }

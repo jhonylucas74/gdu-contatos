@@ -12,18 +12,18 @@
             <h4 class="rotulo">GDU CONTATOS</h4>
         </div>
         <div id="form-adiciona">
-          <form>
+          <form action="listaContatos.html" method="post" name="cadastro">
             <div id="div-nome">
                 <label id="label-nome">Nome</label><br/>
-                <input id="input-nome" type="text" placeholder=""><br/>
+                <input id="nome" name="nome" type="text"><br/>
             </div>
             <div id="div-telefone">
                 <label id="label-telefone">Telefone</label><br/>
-                <input id="input-telefone" type="text" placeholder=""/><br/>
+                <input id="telefone" name="telefone" type="text"/><br/>
             </div>
           </form>
           <div id="botao">
-                <input id="botao-salvar"type="submit" name="salvar" value="Salvar" onclick="guardaDados()"/>
+                <input id="botao-salvar"type="button" name="button" value="Salvar" onclick="guardaDados()"/>
           </div>
         </div>
     </body>
