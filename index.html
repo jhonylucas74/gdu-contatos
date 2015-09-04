@@ -1,8 +1,10 @@
 <html>
     <head>
         <title></title>
+        <meta charset="utf-8"/>
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link href='https://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
+        <script src="js/script.js"></script>
     </head>
     <body>
         <div class="banner">
@@ -13,15 +15,15 @@
           <form>
             <div id="div-nome">
                 <label id="label-nome">Nome</label><br/>
-                <input id="input-nome" type="text"><br/>
+                <input id="input-nome" type="text" placeholder=""><br/>
             </div>
             <div id="div-telefone">
                 <label id="label-telefone">Telefone</label><br/>
-                <input id="input-telefone" type="text" /><br/>
+                <input id="input-telefone" type="text" placeholder=""/><br/>
             </div>
           </form>
           <div id="botao">
-                <input id="botao-salvar"type="submit" name="salvar" value="Salvar" />
+                <input id="botao-salvar"type="submit" name="salvar" value="Salvar" onclick="guardaDados()"/>
           </div>
         </div>
     </body>
