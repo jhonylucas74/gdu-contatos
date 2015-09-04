@@ -48,7 +48,7 @@ html{
   margin-top: 20px;
 }
 /*Configurações do input nome*/
-#input-nome {
+#nome {
   width: 400px;
   height: 30px;
   margin-left: 20px;
@@ -70,7 +70,7 @@ html{
   margin-top: 5px;
 }
 /*Configurações do input telefone*/
-#input-telefone{
+#telefone{
   width: 200px;
   height: 30px;
   margin-left: 20px;
